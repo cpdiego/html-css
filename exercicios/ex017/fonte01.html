@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body {
+            font-family: 'Work Sans', Arial, Helvetica, sans-serif;
+            /*
+            Medidas Absolutas
+            cm, mm, im, px, pt, pc
+
+            Medidas Relativas
+            em, ex, rem, vw, vh, %
+            16px geralmente = 1em
+            */
+            font-size: 1em;
+
+            /* lighter normal bold bolder */
+        }
+
+        h1 {
+            /* shorthand font             
+            - font-style -> font-weight -> font-size -> font-family 
+            
+            font-family: 'Work Sans', sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+            */
+            font: italic bolder 3em 'Work Sans', sans-serif;
+        }
+
+        h2 {
+            font: bold 2em 'Work Sans';
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit ipsum magnam aspernatur dolores rem voluptates eligendi laudantium tempore pariatur. Libero, quidem. Accusamus iure voluptatum, ullam eligendi aut libero nesciunt tempore? Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus mollitia et beatae sapiente architecto quas exercitationem ipsa natus corporis laboriosam, quam laborum placeat quod tenetur reprehenderit atque repellat illum quasi.</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia, voluptatem excepturi! Blanditiis aperiam similique magni voluptatum consequatur doloribus illum libero nostrum voluptates. Deleniti tempora soluta corrupti totam, amet repellat architecto.</p>
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat numquam impedit sunt autem velit sit illo enim possimus maiores rerum nostrum aliquam, et cum nesciunt pariatur quas totam eius tempora?</p>
+</body>
+</html>

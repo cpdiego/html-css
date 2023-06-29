@@ -3,4 +3,4 @@
 
  Estou aprendendo a criar sites e agora vou gerenciar meus repositórios!
 
- <a href="https://cpdiego.github.io/html-css/exercicios/">Abrir lista de exercícios</a>
+ <a href="https://cpdiego.github.io/html-css/">Abrir lista de exercícios</a>
